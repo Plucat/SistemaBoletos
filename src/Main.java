@@ -116,12 +116,14 @@ public class Main {
 
     /// Metodo que resume las ventas
     static void resumenVentas(){
+        System.out.println("Ventas  Total");
         for (int i = 0; i < ventas.length; i++) {
             for (int j = 0; j < ventas[i].length; j++) {
-                System.out.print(ventas[i][j] + "\t"); // tab for spacing
+                System.out.print(ventas[i][j] + "\t\t"); // tab for spacing
             }
             System.out.println();
         }
+        System.out.println("1.General\n2.Preferente\n3.Vip");
     }
     // Metodo que use para testear las ventas
     static void capturaDatosTest(){
